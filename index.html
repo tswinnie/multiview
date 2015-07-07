@@ -3,16 +3,67 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Multiview</title>
+    <link rel="import" href="https://www.polymer-project.org/0.5/components/paper-ripple/paper-ripple.html">
+    <link rel="import" href="http://www.polymer-project.org/components/core-icons/core-icons.html">
+    <link rel="import" href="http://www.polymer-project.org/components/font-roboto/roboto.html">
     <link rel="stylesheet" href="CSS/multiview.css"/>
 
 </head>
 <body>
+<div id="bodyContainer">
+<div id="menu">
+    <!--logo-->
+<div class="logoContainer">
+    <!--part1 logo-->
+    <p class="logoOne">multi</p>
+    <p class="logoTwo">view</p>
+    <!--nav-->
+    <nav>
+<!--nav items-->
 
-<h1>Welcome To Multiview! A jQuery Plugin.</h1>
+            <div class="item">
+                <div class="label" fit><a href="#">About<paper-ripple fit></paper-ripple></a></div>
+            </div>
+        <div class="item">
+            <div class="label" fit><a href="#">Examples<paper-ripple fit></paper-ripple></a></div>
+        </div>
+        <div class="item">
+            <div class="label" fit><a href="#">Get Started<paper-ripple fit></paper-ripple></a></div>
+        </div>
+        <div class="item">
+            <div class="label" fit><a href="#">Options<paper-ripple fit></paper-ripple></a></div>
+        </div>
+
+
+    </nav>
+</div>
+
+</div>
+<!--container-->
+<div id="container">
+    <div id="headerBar">
+        <!--download button-->
+        <div id="download">Download</div>
+
+        <div class="fab pink"></div>
+    </div>
+
+</div>
+
+</div><!--end of body container-->
 
 
 <!--Scripts-->
 <script src="Dependencies/jqueryv2.1.4.js"></script>
 <script src="JS/multiview.js"></script>
+
+<!--<script>-->
+    <!--$(document).ready(function(){-->
+        <!--$('a').click(function(){-->
+            <!--alert('clicked');-->
+        <!--})-->
+
+    <!--})-->
+<!--</script>-->
 </body>
 </html>
