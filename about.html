@@ -5,7 +5,7 @@
     <title></title>
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,700,500italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="CSS/fontGlpyicons.css"/>
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+
     <link rel="stylesheet" href="CSS/reset.css"> <!-- CSS reset -->
     <link rel="stylesheet" href="CSS/style.css"> <!-- Resource style -->
     <link rel="stylesheet" href="CSS/multiview.css"> <!-- Resource style -->
@@ -27,9 +27,19 @@
                     <a data-type="all" href="#0">All</a> <!-- selected option on mobile -->
                 </li>
                 <li class="filter"><a class="selected" href="about.html" data-multiview="About">About</a></li>
-                <li class="filter"><a href="http://www.google.com" data-multiview="Examples">Examples</a></li>
+                <li class="filter"><a href="/index.html" data-multiview="Examples">Examples</a></li>
                 <li class="filter"><a href="/test.html" data-multiview="Get Started">Get Started</a></li>
                 <li class="filter"><a href="/test2.html" data-multiview="Options">Options</a></li>
+                <li class="filter"><a href="/test3.html" data-multiview="Options">test1</a></li>
+                <li class="filter"><a href="/test4.html" data-multiview="Options">test2</a></li>
+                <li class="filter"><a href="/test5.html" data-multiview="Options">test3</a></li>
+                <li class="filter"><a href="/test6.html" data-multiview="Options">test4</a></li>
+                <li class="filter"><a href="/test7.html" data-multiview="Options">test5</a></li>
+                <li class="filter"><a href="/test8.html" data-multiview="Options">test6</a></li>
+                <li class="filter"><a href="/test9.html" data-multiview="Options">test7</a></li>
+                <li class="filter"><a href="/test10.html" data-multiview="Options">test8</a></li>
+                <li class="filter"><a href="/test11.html" data-multiview="Options">test9</a></li>
+
 
             </ul> <!-- cd-filters -->
 
@@ -39,35 +49,22 @@
     <section class="cd-gallery">
 
         <section class="hero">
-        <div class="card">
+            <div class="card">
 
-        <!--Intro text-->
-        <p class="introText"><b style="font-weight: 100;color: #007cc0;text-transform: lowercase;">Multi</b> <b style="color: #ff4081;text-transform: lowercase;">View</b> is a JQuery plugin that brings the ability of multi-tasking to any application. <b style="font-weight: 100;color: #007cc0;text-transform: lowercase;">Multi</b> <b style="color: #ff4081;text-transform: lowercase;">View</b> uses semantic markup mixed with the power of SASS and JavaScript to allow your users to view multiple pages in a single view. </p>
+                <!--Intro text-->
+                <p class="introText"><b style="font-weight: 100;color: #007cc0;text-transform: lowercase;">Multi</b> <b style="color: #ff4081;text-transform: lowercase;">View</b> is a JQuery plugin that brings the ability of multi-tasking to any application. <b style="font-weight: 100;color: #007cc0;text-transform: lowercase;">Multi</b> <b style="color: #ff4081;text-transform: lowercase;">View</b> uses semantic markup mixed with the power of SASS and JavaScript to allow your users to view multiple pages in a single view. </p>
 
-        <a href="#" class="moreInfo">More Info</a>
-        </div>
+                <a href="#" class="moreInfo">More Info</a>
+            </div>
         </section> <!--end of section of card content-->
 
     </section> <!-- cd-gallery -->
 
 </main> <!-- cd-main-content -->
 <script src="JS/jquery-2.1.1.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 <script src="JS/jquery.mixitup.min.js"></script>
 <script src="JS/main.js"></script> <!-- Resource jQuery -->
 <script src="JS/multiview.js"></script> <!-- Resource jQuery -->
-<script>
-    $(document).ready(function(){
-        $('.fab').click(function(){
-            $().multiview({
-                containerValue: '.cd-gallery',
-                showNav: 'true',
-                defaultGrid: ''
 
-            });
-
-        });
-    });
-</script>
 </body>
 </html>
